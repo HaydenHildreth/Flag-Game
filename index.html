@@ -10,16 +10,14 @@
 <div class="header">
   <h1>Flag Game</h1>
 </div>
-
-<script src="./logic.js"></script> 
-
+<script src="./logic.js">generateNumber()</script> 
 <div class="flagpicture">
   <p id="flagtext">replace</p>
 </div>
-
 <div class="choice">
-  <label for="flag">Choose a country:</label>
-  <select name="flag" id="flag">
+  <label for="flags">Choose a country:</label>
+  <select id="flag" onChange="select()">
+    <option value="extra">Choose a country...</option>
     <option value="afghanistan">Afghanistan</option>
     <option value="albania">Albania</option>
     <option value="algeria">Algeria</option>
@@ -46,6 +44,9 @@
     <option value="brunei">Brunei</option>
     <option value="bulgaria">Bulgaria</option>
   </select> 
+</div>
+<div class="button">
+<button type="button">Choose</button> 
 </div>
 <footer class="footer">
   <p>Coded by <a href="https://github.com/haydenhildreth" title="GitHub" target="_blank">Hayden Hildreth</a></p>
