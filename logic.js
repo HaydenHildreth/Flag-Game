@@ -10,5 +10,18 @@ function select() {
     console.log(option)
 }
 
+function check(option) {
+    if option = value
+    {
+        console.log('Right answer');
+        generateNumber();
+    }
+    else 
+    {
+        console.log('Incorrect');
+        endGameFoo();
+    }
+}
+
 generateNumber();
 select();
