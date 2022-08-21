@@ -23,5 +23,9 @@ function check(option) {
     }
 }
 
+function start() {
+    console.log('starting');
+}
+
 generateNumber();
 select();
