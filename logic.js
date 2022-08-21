@@ -1,5 +1,5 @@
 function generateNumber() {
-    let value = Math.floor(Math.random() * 101) + 1;
+    let value = Math.floor(Math.random() * 145) + 1;
     console.log(value)
     return value;
 }
@@ -25,6 +25,7 @@ function check(option) {
 
 function start() {
     console.log('starting');
+    document.getElementById("flagpicture").innerHTML = "new"
 }
 
 generateNumber();
