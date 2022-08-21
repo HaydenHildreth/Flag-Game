@@ -1,5 +1,5 @@
 function generateNumber() {
-    let value = Math.floor(Math.random() * 26) + 1;
+    let value = Math.floor(Math.random() * 101) + 1;
     console.log(value)
     return value;
 }
@@ -11,16 +11,20 @@ function select() {
 }
 
 function check(option) {
-    if option = value
+    if (option = value)
     {
         console.log('Right answer');
-        generateNumber();
+        //generateNumber(); new number
     }
     else 
     {
         console.log('Incorrect');
-        endGameFoo();
+        //endGameFoo(); make foo
     }
+}
+
+function start() {
+    console.log('starting');
 }
 
 generateNumber();
