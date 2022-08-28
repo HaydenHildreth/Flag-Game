@@ -1,5 +1,5 @@
 function generateNumber() {
-    let value = Math.floor(Math.random() * 145) + 1;
+    let value = Math.floor(Math.random() * 195) + 1;
     console.log(value)
     return value;
 }
